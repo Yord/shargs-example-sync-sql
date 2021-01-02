@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 const {parserSync} = require('shargs')
-const {array, command, number, string, subcommand} = require('shargs-opts')
-const {cast} = require('shargs-parser')
+const {array, command, number, string, subcommand} = require('shargs/opts')
+const {cast} = require('shargs/parser')
 
 const csv = array(['csv'])
 
